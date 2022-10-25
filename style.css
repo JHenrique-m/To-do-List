@@ -8,17 +8,17 @@
 }
 body{
     background: #066acd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .container{
-    width: 40%;
-    top: 50%;
-    left: 50%;
     background: white;
     border-radius: 10px;
-    min-width: 450px;
-    position: absolute;
+    min-width: 50%;
+    max-width: 80%;
     min-height: 100px;
-    transform: translate(-50%,-50%);
 }
 #newtask{
     padding: 30px 20px;
@@ -66,7 +66,7 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: #0d75ec;
-    height: 50px;
+    min-height: 50px;
     color: #ffffff;
     margin-bottom: 8px;
     transition: 0.3s;
@@ -79,5 +79,8 @@ body{
     background-color: #496a9100;
     height: 100%;
     width: 40px;
-    border-radius: 5px;
+    padding-bottom: 5px;
+}
+#taskname{
+    max-width: 50%;
 }
